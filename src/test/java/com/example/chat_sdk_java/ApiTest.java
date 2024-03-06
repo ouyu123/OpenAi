@@ -37,6 +37,7 @@ import java.util.concurrent.CountDownLatch;
 @SpringBootTest
 public class ApiTest {
     private Logger log = LoggerFactory.getLogger(ApiTest.class);
+
     private OpenAiSession openAiSession;
     @Before
     public void test_OpenAiSessionFactory() {

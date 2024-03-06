@@ -3,6 +3,7 @@ package com.example.chat_sdk_java.domain.chat.req;
 import com.alibaba.fastjson.JSON;
 import com.example.chat_sdk_java.domain.chat.entity.Content;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -13,28 +14,28 @@ public class Message {
     private String role;
     private String content;
 
-    public static PromptBuilder builder() {
-        return new PromptBuilder();
+    public static Builder builder() {
+        return new Builder();
     }
 
-    public static class PromptBuilder {
+    public static class Builder {
         private String role;
         private String content;
 
-        PromptBuilder() {
+        Builder() {
         }
 
-        public PromptBuilder role(String role) {
+        public Builder role(String role) {
             this.role = role;
             return this;
         }
 
-        public PromptBuilder content(String content) {
+        public Builder content(String content) {
             this.content = content;
             return this;
         }
 
-        public PromptBuilder content(Content content) {
+        public Builder content(Content content) {
             this.content = JSON.toJSONString(content);
             return this;
         }
@@ -44,7 +45,7 @@ public class Message {
         }
 
         public String toString() {
-            return "ChatCompletionRequest.Prompt.PromptBuilder(role=" + this.role + ", content=" + this.content + ")";
+            return "ChatCompletionRequest.Prompt.Builder(role=" + this.role + ", content=" + this.content + ")";
         }
     }
 }
