@@ -1,0 +1,1035 @@
+24-03-17.19:53:30.833 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 8660 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-17.19:53:30.836 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-17.19:53:32.417 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 80 (http)
+24-03-17.19:53:32.438 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+24-03-17.19:53:32.441 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-17.19:53:32.442 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-17.19:53:32.610 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-17.19:53:32.611 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1708 ms
+24-03-17.19:53:33.501 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-80"]
+24-03-17.19:53:33.524 [main            ] INFO  TomcatWebServer        - Tomcat started on port 80 (http) with context path ''
+24-03-17.19:53:33.532 [main            ] INFO  Application            - Started Application in 3.587 seconds (process running for 4.971)
+24-03-17.19:55:54.277 [http-nio-80-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-17.19:55:54.277 [http-nio-80-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-17.19:55:54.277 [http-nio-80-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-03-17.19:55:54.324 [http-nio-80-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710676553</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[403]]></Content>
+<MsgId>24490998842450770</MsgId>
+</xml>
+24-03-17.19:55:54.559 [http-nio-80-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710676554</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 4368 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.19:55:59.205 [http-nio-80-exec-3] INFO  AuthController         - 鉴权登录检验开始，验证码：4368
+24-03-17.19:55:59.388 [http-nio-80-exec-3] INFO  AuthController         - 鉴权登录校验完成，验证码：4368 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiNzM0NTFjMGQtZmE3YS00NDRlLTkwM2ItOTYyMzQxZWRkZjc1IiwiaWF0IjoxNzEwNjc2NTU5LCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjgxMzU5fQ.TSWFWehP1QJNBMWnova66AxUJuPXuA-Hm-MntQBbTPw"}
+24-03-17.19:56:01.079 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录检验开始，验证码：4368
+24-03-17.19:56:01.079 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录校验完成，验证码：4368 结果：{"code":"0001","info":"验证码不存在"}
+24-03-17.19:56:22.899 [http-nio-80-exec-9] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710676582</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[213]]></Content>
+<MsgId>24491000607894720</MsgId>
+</xml>
+24-03-17.19:56:22.907 [http-nio-80-exec-9] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710676582</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 0254 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.19:56:29.932 [http-nio-80-exec-8] INFO  AuthController         - 鉴权登录检验开始，验证码： 0254
+24-03-17.19:56:29.932 [http-nio-80-exec-8] INFO  AbstractAuthService    - 鉴权，用户输入的验证码无效 0254
+24-03-17.19:56:29.933 [http-nio-80-exec-8] INFO  AuthController         - 鉴权登录校验完成，验证码： 0254 结果：{"code":"0002","info":"验证码失效"}
+24-03-17.19:56:58.604 [http-nio-80-exec-7] INFO  AuthController         - 鉴权登录检验开始，验证码： 0254
+24-03-17.19:56:58.604 [http-nio-80-exec-7] INFO  AbstractAuthService    - 鉴权，用户输入的验证码无效 0254
+24-03-17.19:56:58.604 [http-nio-80-exec-7] INFO  AuthController         - 鉴权登录校验完成，验证码： 0254 结果：{"code":"0002","info":"验证码失效"}
+24-03-17.19:57:20.784 [http-nio-80-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710676640</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123]]></Content>
+<MsgId>24491000188748997</MsgId>
+</xml>
+24-03-17.19:57:20.792 [http-nio-80-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710676640</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 0254 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.19:57:50.784 [http-nio-80-exec-3] INFO  AuthController         - 鉴权登录检验开始，验证码：0254
+24-03-17.19:57:50.784 [http-nio-80-exec-3] INFO  AuthController         - 鉴权登录校验完成，验证码：0254 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiNjAyODc4ODUtNzhhNi00ZTBiLTgxYjQtY2RkMWZmYjc0M2FmIiwiaWF0IjoxNzEwNjc2NjcwLCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjgxNDcwfQ.5KqYgbH6oD3m976ZtrCYlgBGOv2xyXOKblqJ7sZFt34"}
+24-03-17.20:04:08.575 [http-nio-80-exec-5] INFO  AuthController         - 鉴权登录检验开始，验证码：0254
+24-03-17.20:04:08.576 [http-nio-80-exec-5] INFO  AuthController         - 鉴权登录校验完成，验证码：0254 结果：{"code":"0001","info":"验证码不存在"}
+24-03-17.20:04:14.604 [http-nio-80-exec-9] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710677053</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[213]]></Content>
+<MsgId>24491005086978443</MsgId>
+</xml>
+24-03-17.20:04:14.613 [http-nio-80-exec-9] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710677054</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 2426 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.20:04:21.797 [http-nio-80-exec-8] INFO  AuthController         - 鉴权登录检验开始，验证码：2426
+24-03-17.20:04:21.798 [http-nio-80-exec-8] INFO  AuthController         - 鉴权登录校验完成，验证码：2426 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiMTEwMTI2ZWItNjE4Ni00MDc1LThiYTAtMjA5MTY3YmQyZjhlIiwiaWF0IjoxNzEwNjc3MDYxLCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjgxODYxfQ.yh8P6vVQAlG1IoJdwU8r4DFvd4Ma4Lbf2yznlZbC8EI"}
+24-03-17.20:37:21.494 [http-nio-80-exec-7] INFO  AuthController         - 鉴权登录检验开始，验证码：2426
+24-03-17.20:37:21.499 [http-nio-80-exec-7] INFO  AuthController         - 鉴权登录校验完成，验证码：2426 结果：{"code":"0001","info":"验证码不存在"}
+24-03-17.20:37:37.527 [http-nio-80-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710679056</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[213]]></Content>
+<MsgId>24491035679605433</MsgId>
+</xml>
+24-03-17.20:37:37.551 [http-nio-80-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710679057</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 3641 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.20:37:45.286 [http-nio-80-exec-3] INFO  AuthController         - 鉴权登录检验开始，验证码：3641
+24-03-17.20:37:45.291 [http-nio-80-exec-3] INFO  AuthController         - 鉴权登录校验完成，验证码：3641 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiZjI3ZmZlMTYtYTM3Zi00MjllLThlYjAtZWJkODQ5OTk1MWE2IiwiaWF0IjoxNzEwNjc5MDY1LCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjgzODY1fQ.i8oT4p4lHFf2NHIHbfjqBnecZG62JGLTDYZtFfuPgh0"}
+24-03-17.20:38:12.902 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录检验开始，验证码：3641
+24-03-17.20:38:12.902 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录校验完成，验证码：3641 结果：{"code":"0001","info":"验证码不存在"}
+24-03-17.20:38:23.719 [http-nio-80-exec-5] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710679103</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123]]></Content>
+<MsgId>24491036001330878</MsgId>
+</xml>
+24-03-17.20:38:23.727 [http-nio-80-exec-5] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710679103</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 3364 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.20:38:32.532 [http-nio-80-exec-10] INFO  AuthController         - 鉴权登录检验开始，验证码：3364
+24-03-17.20:38:32.532 [http-nio-80-exec-10] INFO  AuthController         - 鉴权登录校验完成，验证码：3364 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiYjNkYTdhMjUtYTdjOC00YzU5LTljYzUtNTcyZGY2N2UyMzAyIiwiaWF0IjoxNzEwNjc5MTEyLCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjgzOTEyfQ.4e29nDu6--_1ZdHXB-_XOOKILkHMP0SRY8nh6E_TUS0"}
+24-03-17.20:39:14.473 [http-nio-80-exec-8] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710679153</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123213]]></Content>
+<MsgId>24491037300144735</MsgId>
+</xml>
+24-03-17.20:39:14.480 [http-nio-80-exec-8] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710679154</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 8515 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.20:39:22.895 [http-nio-80-exec-7] INFO  AuthController         - 鉴权登录检验开始，验证码：8515
+24-03-17.20:39:22.897 [http-nio-80-exec-7] INFO  AuthController         - 鉴权登录校验完成，验证码：8515 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiMTVjNmYwMTEtODU4Yi00ZjM3LWIwMjMtMTA2M2M1ZTY5MWFmIiwiaWF0IjoxNzEwNjc5MTYyLCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjgzOTYyfQ.7cWas8u65619UKycLy7ZkQI8knKRIxMjZEcNXk4KGkY"}
+24-03-17.20:40:34.780 [http-nio-80-exec-2] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710679233</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[213]]></Content>
+<MsgId>24491039254718842</MsgId>
+</xml>
+24-03-17.20:40:34.801 [http-nio-80-exec-2] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710679234</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 8806 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.20:40:43.254 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录检验开始，验证码：8806
+24-03-17.20:40:43.254 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录校验完成，验证码：8806 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiMTljNTQyNDUtZThjNC00MDhhLTlkNGMtMGI2OWUyYTdhMzE5IiwiaWF0IjoxNzEwNjc5MjQzLCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjg0MDQzfQ.xFw6_xmT0AZ0jWYyltljuZltEiiLt8lH9zhbai_UDL8"}
+24-03-17.20:51:01.338 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 16484 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-17.20:51:01.340 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-17.20:51:02.505 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 80 (http)
+24-03-17.20:51:02.517 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+24-03-17.20:51:02.520 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-17.20:51:02.521 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-17.20:51:02.620 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-17.20:51:02.620 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1226 ms
+24-03-17.20:51:03.317 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-80"]
+24-03-17.20:51:03.343 [main            ] INFO  TomcatWebServer        - Tomcat started on port 80 (http) with context path ''
+24-03-17.20:51:03.351 [main            ] INFO  Application            - Started Application in 2.693 seconds (process running for 3.469)
+24-03-17.20:51:10.483 [http-nio-80-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-17.20:51:10.483 [http-nio-80-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-17.20:51:10.483 [http-nio-80-exec-2] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-03-17.20:51:10.535 [http-nio-80-exec-2] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1710679869</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[231]]></Content>
+<MsgId>24491048286661834</MsgId>
+</xml>
+24-03-17.20:51:10.734 [http-nio-80-exec-2] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1710679870</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 2371 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-17.20:51:16.395 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录检验开始，验证码：2371
+24-03-17.20:51:16.590 [http-nio-80-exec-4] INFO  AuthController         - 鉴权登录校验完成，验证码：2371 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiY2U3OTUzZmUtNDQ5Ni00ZDA1LThmZDUtMjBhMjk3OTkxYzAwIiwiaWF0IjoxNzEwNjc5ODc2LCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExMjg0Njc2fQ.jbuynO1egYWp2M9Bf0vtk4hHuonTQnUnc_jRMYGlWOc"}
+24-03-17.21:03:09.903 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 6204 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-17.21:03:09.905 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-17.21:03:11.178 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 80 (http)
+24-03-17.21:03:11.192 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+24-03-17.21:03:11.195 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-17.21:03:11.195 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-17.21:03:11.293 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-17.21:03:11.293 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1333 ms
+24-03-17.21:03:12.027 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-80"]
+24-03-17.21:03:12.047 [main            ] INFO  TomcatWebServer        - Tomcat started on port 80 (http) with context path ''
+24-03-17.21:03:12.055 [main            ] INFO  Application            - Started Application in 2.938 seconds (process running for 3.719)
+24-03-17.21:03:42.106 [http-nio-80-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-17.21:03:42.106 [http-nio-80-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-17.21:03:42.107 [http-nio-80-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-03-17.21:05:45.387 [http-nio-80-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4，请求信息：[{"content":"","role":"system"},{"content":"写一个冒泡排序\n","role":"user"},{"content":"","role":"system"}]
+24-03-17.21:05:45.406 [http-nio-80-exec-6] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:05:45.453 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:05:45.453 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:05:45.453 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 255
+24-03-17.21:05:45.453 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:05:45.453 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:05:45.459 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:05:45.460 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@2d79c674
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 400 https://open.bigmodel.cn/api/paas/v4/chat/completions (519ms)
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:05:45 GMT
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760822617106807456216979ee8ee8ec5bdc69d5f60e3e81d3a6f8e23b21c;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:05:45.973 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:07:20.446 [http-nio-80-exec-5] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"请问有什么需要帮助的吗？","role":"system"},{"content":"我想让你担任Java开发工程师面试官。我将成为候选人，您将向我询问Java开发工程师职位的面试问题。我希望你只作为面试官回答。不要一次写出所有的问题。我希望你只对我进行采访。问我问题，等待我的回答。不要写解释。像面试官一样一个一个问我，等我回答。我的第一句话是“面试官你好","role":"user"}]
+24-03-17.21:07:20.446 [http-nio-80-exec-5] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:07:20.452 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:07:20.452 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:07:20.452 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 630
+24-03-17.21:07:20.452 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:07:20.452 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:07:20.452 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:07:20.452 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@7f94a27c
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1178ms)
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:07:21 GMT
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760822617106808401818455ee8ee86c6ce7530166132b09cbe9f40364df5;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: N/A
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:07:21.619 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:07:21.971 [http-nio-80-exec-4] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:07:47.936 [http-nio-80-exec-8] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"我想让你担任Java开发工程师面试官。我将成为候选人，您将向我询问Java开发工程师职位的面试问题。我希望你只作为面试官回答。不要一次写出所有的问题。我希望你只对我进行采访。问我问题，等待我的回答。不要写解释。像面试官一样一个一个问我，等我回答。我的第一句话是“面试官你好","role":"user"},{"content":"好的，下面是我的第一个问题：请介绍一下你自己？","role":"system"},{"content":"我是一名研二学生\n","role":"user"}]
+24-03-17.21:07:47.937 [http-nio-80-exec-8] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:07:47.937 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:07:47.937 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:07:47.937 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 718
+24-03-17.21:07:47.937 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:07:47.937 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:07:47.937 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:07:47.937 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@1e961bd1
+24-03-17.21:07:49.169 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1227ms)
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:07:48 GMT
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760822617106808676678867ee8ee92bdb775369449584287cd65274867cc;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:07:49.170 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:07:52.059 [http-nio-80-exec-9] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:08:46.055 [http-nio-80-exec-10] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+24-03-17.21:08:46.055 [http-nio-80-exec-10] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4
+24-03-17.21:08:46.069 [http-nio-80-exec-10] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4
+24-03-17.21:09:11.672 [http-nio-80-exec-2] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"我是一名研二学生\n","role":"user"},{"content":"你好！很高兴能参加这次Java开发工程师的面试。我叫XXX，来自XX大学计算机专业。我在大学期间学习了Java的基础知识，并参与了几个相关的项目实践。我对Java有着浓厚的兴趣，并且具备一定的编程能力。此外，我还熟悉一些常用的Java框架和技术，如Spring、Hibernate和MySQL等。我相信自己能够胜任这个岗位的工作需求。谢谢！","role":"system"},{"content":"写一个java冒泡排序\n","role":"user"}]
+24-03-17.21:09:11.672 [http-nio-80-exec-2] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:09:11.672 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:09:11.672 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:09:11.672 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 712
+24-03-17.21:09:11.672 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:09:11.672 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:09:11.672 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:09:11.672 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@550df5f5
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1174ms)
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:09:12 GMT
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760822617106809514011830ee8ee53e922e9caad2c8cdf8295199172d1c6;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:09:12.850 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:09:29.068 [http-nio-80-exec-3] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:11:13.042 [http-nio-80-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"写一个java冒泡排序\n","role":"user"},{"content":"```java\npublic class BubbleSort {  \n    /**   \n     * 用于排序数组的冒泡排序方法。   \n     */  \n    public static void bubbleSort(int[] array) {  \n        // 获取数组的长度。  \n        int n = array.length;  \n        \n        // 遍历数组中的每一个元素。  \n        for (int i = 0; i < n - 1; i++) {  \n            // 内层循环从头开始两两比较相邻的元素，直到已排序部分的末尾。  \n            for (int j = 0; j < n - i - 1; j++) {  \n                if (array[j] > array[j + 1]) {  \n                    // 若前一个元素大于后一个元素，则交换它们的位置。  \n                    int temp = array[j];  \n                    array[j] = array[j + 1];  \n                    array[j + 1] = temp;  \n                }  \n            }  \n        }  \n    }  \n    \n    /**   \n     * 用于测试的main方法。  \n     */  \n    public static void main(String[] args) {  \n        // 创建一个待排序的数组。  \n        int[] array = {64, 34, 25, 12, 22, 11, 90};  \n        \n        // 调用冒泡排序方法。  \n        bubbleSort(array);  \n        \n        // 打印排序后的数组。  \n        for (int i = 0; i < array.length; i++) {  \n            System.out.print(\" \" + array[i]);  \n        }  \n        System.out.println();  \n    }  \n}\n```","role":"system"},{"content":"好的","role":"user"}]
+24-03-17.21:11:13.042 [http-nio-80-exec-6] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:11:13.042 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:11:13.042 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:11:13.042 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 1627
+24-03-17.21:11:13.042 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:11:13.042 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:11:13.042 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:11:13.042 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@7263e315
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1395ms)
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:11:14 GMT
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760822617106810727663962ee8ee6695ca74b938f8245267e197ffd7a9ae;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:11:14.436 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:11:31.900 [http-nio-80-exec-5] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:14:34.251 [http-nio-80-exec-8] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"请问有什么需要帮助的吗？","role":"system"},{"content":"你好","role":"user"}]
+24-03-17.21:14:34.251 [http-nio-80-exec-8] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:14:34.251 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:14:34.251 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:14:34.251 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 244
+24-03-17.21:14:34.251 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:14:34.251 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:14:34.251 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:14:34.251 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@7ae0a83f
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1704ms)
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:14:35 GMT
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760776717106812742388498ee99170ee4657ece3f0c30a8092341816a6e8;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:14:35.949 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:14:35.964 [http-nio-80-exec-9] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:15:07.437 [http-nio-80-exec-1] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"你好","role":"user"},{"content":"请问我可以为你做什么呢？","role":"system"},{"content":"无所谓是谁的歌曲\n","role":"user"}]
+24-03-17.21:15:07.439 [http-nio-80-exec-1] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:15:07.443 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:15:07.443 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:15:07.443 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 299
+24-03-17.21:15:07.443 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:15:07.443 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:15:07.444 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:15:07.444 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@69c351fb
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1182ms)
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:15:08 GMT
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760776717106813071572124ee99199fcdc735de48b630144e1ca000a8ac4;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:15:08.616 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:18:08.054 [http-nio-80-exec-2] WARN  DefaultHandlerExceptionResolver - Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+24-03-17.21:18:08.054 [http-nio-80-exec-2] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+24-03-17.21:18:08.054 [http-nio-80-exec-2] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:20:16.447 [http-nio-80-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"无所谓是谁的歌曲\n","role":"user"},{"content":"无所谓是林心如2001年发行的国语专辑《我很好》中的一首歌曲，由黄怡作曲，林夕作词。这首歌也是林心如转型为","role":"system"},{"content":"丑八怪的歌词","role":"user"}]
+24-03-17.21:20:16.447 [http-nio-80-exec-6] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:20:16.447 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:20:16.447 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:20:16.447 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 426
+24-03-17.21:20:16.447 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:20:16.447 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:20:16.447 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:20:16.447 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@2984471
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1533ms)
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:20:17 GMT
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760821217106816164523068e974af4d92960b8fc3b9a96548b6566cc963f;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:20:17.981 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:20:31.971 [http-nio-80-exec-5] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:24:09.238 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 10080 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-17.21:24:09.240 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-17.21:24:10.379 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 80 (http)
+24-03-17.21:24:10.391 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-80"]
+24-03-17.21:24:10.394 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-17.21:24:10.395 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-17.21:24:10.491 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-17.21:24:10.491 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1198 ms
+24-03-17.21:24:11.234 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-80"]
+24-03-17.21:24:11.261 [main            ] INFO  TomcatWebServer        - Tomcat started on port 80 (http) with context path ''
+24-03-17.21:24:11.270 [main            ] INFO  Application            - Started Application in 2.811 seconds (process running for 3.744)
+24-03-17.21:24:24.727 [http-nio-80-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-17.21:24:24.727 [http-nio-80-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-17.21:24:24.727 [http-nio-80-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-03-17.21:24:24.911 [http-nio-80-exec-1] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"丑八怪的歌词","role":"user"},{"content":"这是韩国女团GOTthebeat的一首歌，下面是歌词：\n\n(Verse 1)\n\nOh my god, what's going on\n\nWhy is this happening to me\n\nAm I dreaming or is this real\n\nPlease someone help me\n\n(Pre-Chorus)\n\nI can't believe it's true\n\nThis feeling is overwhelming me\n\nWhat did I do to deserve this\n\n(Chorus)\n\nUgly duckling, ugly duckling, no one wants you\n\nYou're just a worthless piece of trash\n\n(Verse 2)\n\nThey laugh at me, they mock me\n\nI try to hide my pain but it's no use\n\nI'm surrounded by hate and rejection\n\nAnd all because of my appearance\n\n(Pre-Chorus)\n\nI can't believe it's true\n\nThis feeling is overwhelming me\n\nWhat did I do to deserve this\n\n(Chorus)\n\nUgly duckling, ugly duckling, no one wants you\n\nYou're just a worthless piece of trash\n\n(Bridge)\n\nI wish I could change myself\n\nTo be accepted by everyone\n\nBut I'm stuck in this world alone\n\n(Verse 3)\n\nWill things ever get better for me\n\nWill I ever find true happiness\n\nI don't know anymore\n\n(Pre-Chorus)\n\nI can't believe it's true\n\nThis feeling is overwhelming me\n\nWhat did I do to deserve this\n\n(Chorus)\n\nUgly duckling, ugly duckling, no one wants you\n\nYou're just a worthless piece of trash\n\n(Outro)","role":"system"},{"content":"薛之谦\n","role":"user"}]
+24-03-17.21:24:24.943 [http-nio-80-exec-1] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:24:24.993 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:24:24.994 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:24:24.994 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 1501
+24-03-17.21:24:24.994 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:24:24.994 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:24:24.994 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:24:24.994 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@41e5d3e1
+24-03-17.21:24:26.832 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1838ms)
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:24:26 GMT
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760775217106818650021907e892a9eadb05b34d1e94c2ecb135d8e775cd8;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: N/A
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:24:26.833 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:24:28.199 [http-nio-80-exec-3] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-17.21:26:35.857 [http-nio-80-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"薛之谦\n","role":"user"},{"content":"抱歉，您说的歌曲不是丑八怪，请提供更多信息以便我为您正确提供歌词。","role":"system"},{"content":"薛之谦的丑八怪的歌词","role":"user"}]
+24-03-17.21:26:35.859 [http-nio-80-exec-6] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:46)
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:27)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-17.21:26:35.859 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-17.21:26:35.859 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-17.21:26:35.859 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 371
+24-03-17.21:26:35.859 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-17.21:26:35.859 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-17.21:26:35.859 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-17.21:26:35.859 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@6ca954ba
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1397ms)
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Sun, 17 Mar 2024 13:26:36 GMT
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - set-cookie: acw_tc=2760775217106819955564468e892a87a0a05067042f00f825055ceb7e8178;path=/;HttpOnly;Max-Age=1800
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-17.21:26:37.261 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-17.21:26:43.462 [http-nio-80-exec-7] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v

@@ -1,0 +1,5 @@
+24-03-21.08:03:28.235 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=9h56m1s60ms809µs200ns).
+24-03-21.12:54:29.046 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1h2m27s265ms746µs801ns).
+24-03-21.13:43:21.901 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=10m52s401ms771µs300ns).
+24-03-21.17:17:06.560 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=55m12s254ms735µs).
+24-03-21.22:28:57.197 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=23m16s29ms670µs400ns).

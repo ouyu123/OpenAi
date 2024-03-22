@@ -1,0 +1,511 @@
+24-03-21.08:03:28.235 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=9h56m1s60ms809µs200ns).
+24-03-21.09:33:23.836 [http-nio-8091-exec-8] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"命令行中如何运行.exe文件","role":"user"},{"content":"在命令行中运行.exe文件通常涉及以下步骤：\n1. 确保您有足够的权限执行该文件。\n2. 找到并定位您想要运行的.exe文件。\n3. 在命令行界面中，使用以下语法之一来运行.exe文件：\n   - 直接运行：\n   ```\n   \\path\\to\\your\\file\\path\\to\\the\\executable.exe\n   ```\n   注意：请将上述路径替换为实际的文件路径。\n   - 使用x86或x64标识符（如果需要）：\n   ```\n   \\path\\to\\your\\file\\path\\to\\the\\executable.exe x86\n   ```\n   或\n   ```\n   \\path\\to\\your\\file\\path\\to\\the\\executable.exe x64\n   ```\n   注意：这些标识符用于指示系统的CPU架构。\n4. 按下回车键或空格键以执行命令。\n\n以上是在命令行中运行.exe文件的常见方法。","role":"system"},{"content":"amountTotal.multiply(new BigDecimal(100)).intValue()","role":"user"}]
+24-03-21.09:33:23.862 [http-nio-8091-exec-8] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.09:33:23.925 [http-nio-8091-exec-8] INFO  SensitiveWordConfig    - 检测到敏感词：executable.exe
+24-03-21.09:33:23.925 [http-nio-8091-exec-8] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.09:33:23.925 [http-nio-8091-exec-8] INFO  SensitiveWordConfig    - 检测到敏感词：executable.exe
+24-03-21.09:33:23.925 [http-nio-8091-exec-8] INFO  SensitiveWordConfig    - 检测到敏感词：executable.exe
+24-03-21.09:33:23.925 [http-nio-8091-exec-8] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.09:33:23.968 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.09:33:23.969 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.09:33:23.969 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 1102
+24-03-21.09:33:23.969 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.09:33:23.969 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.09:33:23.972 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.09:33:23.973 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@1ae28ad4
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (2434ms)
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 01:33:26 GMT
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.09:33:26.402 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.09:33:26.411 [http-nio-8091-exec-9] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.09:33:38.301 [http-nio-8091-exec-10] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"amountTotal.multiply(new BigDecimal(100)).intValue()","role":"user"},{"content":"抱歉，我不能提供此类信息。","role":"system"},{"content":"amountTotal.multiply(new BigDecimal(100)).intValue()是什么意思","role":"user"}]
+24-03-21.09:33:38.301 [http-nio-8091-exec-10] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.09:33:38.311 [http-nio-8091-exec-10] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.09:33:38.403 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.09:33:38.403 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.09:33:38.403 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 389
+24-03-21.09:33:38.403 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.09:33:38.403 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.09:33:38.403 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.09:33:38.403 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@6ddc0c79
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1287ms)
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 01:33:39 GMT
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.09:33:39.691 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.09:33:40.227 [http-nio-8091-exec-1] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.10:48:05.676 [http-nio-8091-exec-4] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"amountTotal.multiply(new BigDecimal(100)).intValue()是什么意思","role":"user"},{"content":"意思是将amountTotal的值乘以100后取整数部分。","role":"system"},{"content":"new BigDecimal(total).divide(new BigDecimal(100), 2, RoundingMode.HALF_UP)这是什么意思","role":"user"}]
+24-03-21.10:48:05.696 [http-nio-8091-exec-4] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.10:48:05.726 [http-nio-8091-exec-4] INFO  SensitiveWordConfig    - 检测到敏感词：RoundingMode.HALF
+24-03-21.10:48:05.737 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.10:48:05.737 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.10:48:05.737 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 449
+24-03-21.10:48:05.737 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.10:48:05.737 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.10:48:05.746 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.10:48:05.746 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@5b4c960b
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1293ms)
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 02:48:07 GMT
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: N/A
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.10:48:07.037 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.10:48:08.097 [http-nio-8091-exec-5] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.10:48:53.986 [http-nio-8091-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"new BigDecimal(total).divide(new BigDecimal(100), 2, RoundingMode.HALF_UP)这是什么意思","role":"user"},{"content":"意思是将new BigDecimal(total)的值除以100后，保留小数点后两位，采用四舍五入模式。","role":"system"},{"content":"BigDecimal是什么类型\n","role":"user"}]
+24-03-21.10:48:53.988 [http-nio-8091-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.10:48:53.988 [http-nio-8091-exec-6] INFO  SensitiveWordConfig    - 检测到敏感词：RoundingMode.HALF
+24-03-21.10:48:54.000 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.10:48:54.000 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.10:48:54.000 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 458
+24-03-21.10:48:54.000 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.10:48:54.000 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.10:48:54.000 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.10:48:54.000 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@2cd7854d
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1123ms)
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 02:48:55 GMT
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: N/A
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.10:48:55.119 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.10:48:58.628 [http-nio-8091-exec-7] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.10:49:28.459 [http-nio-8091-exec-8] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"BigDecimal是什么类型\n","role":"user"},{"content":"BigDecimal 是Java中的一个类，用于表示任意精度的有理数，它提供了加、减、乘、除等基本运算功能，以及比较和大小的方法。BigDecimal可以精确地表示小数，支持十进制数和科学计数法等多种表示形式，并且可以处理非常大或非常小的数值，避免了使用浮点数可能导致的舍入误差。","role":"system"},{"content":"再详细点","role":"user"}]
+24-03-21.10:49:28.459 [http-nio-8091-exec-8] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.10:50:15.550 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"再详细点","role":"user"},{"content":"个人账户，总额度【10】次，已耗尽！","role":"system"},{"content":"再详细点","role":"user"}]
+24-03-21.10:50:15.551 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.10:50:15.561 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.10:50:15.561 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.10:50:15.561 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 305
+24-03-21.10:50:15.561 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.10:50:15.561 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.10:50:15.561 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.10:50:15.561 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@584101d7
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1403ms)
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 02:50:16 GMT
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.10:50:16.965 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.10:50:18.400 [http-nio-8091-exec-10] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.10:50:27.472 [http-nio-8091-exec-1] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"再详细点","role":"user"},{"content":"很抱歉，根据图片信息我无法得知您所指示的个人账户的详情。但是您可以提供一些具体的信息，例如账号、户名、开户时间等，以便我更好地为您服务。","role":"system"},{"content":"BigDecimal是什么类型","role":"user"}]
+24-03-21.10:50:27.473 [http-nio-8091-exec-1] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.10:50:27.479 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.10:50:27.479 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.10:50:27.479 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：账号
+24-03-21.10:50:27.479 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：开户
+24-03-21.10:50:27.485 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.10:50:27.485 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.10:50:27.485 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 472
+24-03-21.10:50:27.485 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.10:50:27.485 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.10:50:27.485 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.10:50:27.485 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@17bbfe94
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1110ms)
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 02:50:28 GMT
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.10:50:28.591 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.10:50:33.231 [http-nio-8091-exec-2] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.10:58:23.758 [http-nio-8091-exec-4] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"BigDecimal是什么类型","role":"user"},{"content":"BigDecimal是Java语言中的一个类，用于表示任意精度的有理数。它提供了加、减、乘、除以及四舍五入和比较大小等基本操作。BigDecimal的主要特点是能够精确地表示小数点后的数字，避免由于计算或存储而产生的精度损失。此外，它还支持溢出处理，当结果超出了浮点数的表示范围时，可以自动转换为更大的整数或长整数。","role":"system"},{"content":"@Subscribe的作用","role":"user"}]
+24-03-21.10:58:23.758 [http-nio-8091-exec-4] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.10:58:23.778 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.10:58:23.778 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.10:58:23.778 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 701
+24-03-21.10:58:23.778 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.10:58:23.778 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.10:58:23.779 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.10:58:23.779 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@78b10872
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1448ms)
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 02:58:25 GMT
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.10:58:25.224 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.10:58:31.665 [http-nio-8091-exec-5] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.11:05:14.940 [http-nio-8091-exec-7] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"@Subscribe的作用","role":"user"},{"content":"在Java中，@Subscribe是RxJava库中的一个注解，主要用于观察者模式（Observer Pattern）中。当一个被观察者对象（Observable）发出一个通知时，所有注册到该对象的观察者都会收到这个通知。具体来说，@Subscribe注解允许你定义一个函数来处理Observable发出的通知。当Observable发射值（如next()方法调用）时，此函数会被执行；当Observable发出错误信号（如onErrorReturn()或onCompleted()方法调用）时，此函数也会被执行。通过这种方式，你可以根据需要对Observable发出的不同类型的通知进行定制化的处理。","role":"system"},{"content":"QueryOrderByOutTradeNoRequest的作用","role":"user"}]
+24-03-21.11:05:14.941 [http-nio-8091-exec-7] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.11:05:14.950 [http-nio-8091-exec-7] INFO  SensitiveWordConfig    - 检测到敏感词：通知
+24-03-21.11:05:14.951 [http-nio-8091-exec-7] INFO  SensitiveWordConfig    - 检测到敏感词：通知
+24-03-21.11:05:14.951 [http-nio-8091-exec-7] INFO  SensitiveWordConfig    - 检测到敏感词：通知
+24-03-21.11:05:14.951 [http-nio-8091-exec-7] INFO  SensitiveWordConfig    - 检测到敏感词：信号
+24-03-21.11:05:14.951 [http-nio-8091-exec-7] INFO  SensitiveWordConfig    - 检测到敏感词：通知
+24-03-21.11:05:14.957 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.11:05:14.957 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.11:05:14.957 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 931
+24-03-21.11:05:14.958 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.11:05:14.958 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.11:05:14.958 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.11:05:14.958 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@2161dbf2
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1537ms)
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 03:05:16 GMT
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.11:05:16.495 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.11:05:21.296 [http-nio-8091-exec-8] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.11:06:17.073 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"QueryOrderByOutTradeNoRequest的作用","role":"user"},{"content":"QueryOrderByOutTradeNoRequest 是支付宝接口文档中的内容，属于公共接口部分。\n\n1、含义：\n\nQueryOrderByOutTradeNoRequest 是在批量查询交易时使用的一个接口，它用于按商户的交易单号查询交易信息。\n\n2、作用：\n\n这个接口的主要作用是根据商户的交易单号查询相关的交易信息。通过这个接口，开发者可以获取特定商户的交易详情，包括交易状态、创建时间、修改时间和交易金额等信息。这有助于开发者监控和管理商户的交易活动，分析业务表现，以及为用户提供更好的服务和支持。","role":"system"},{"content":"QueryOrderByOutTradeNoRequest需要的参数","role":"user"}]
+24-03-21.11:06:17.073 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：开发
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：开发
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：活动
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：分析
+24-03-21.11:06:17.083 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：用户
+24-03-21.11:06:17.092 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.11:06:17.092 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.11:06:17.092 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 949
+24-03-21.11:06:17.092 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.11:06:17.092 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.11:06:17.092 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.11:06:17.092 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@ba8252d
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1346ms)
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 03:06:18 GMT
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.11:06:18.438 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.11:06:25.378 [http-nio-8091-exec-10] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.11:07:22.932 [http-nio-8091-exec-1] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"QueryOrderByOutTradeNoRequest需要的参数","role":"user"},{"content":"QueryOrderByOutTradeNoRequest 需要以下参数：\n\nout_trade_no：是必填项，交易单号，商家网站订单号或支付宝交易号，最大长度30位。\n\nappid：是必填项，商户的AppID，可在商户管理后台查看，最大长度64位。\n\nappsecret：是必填项，商户在支付宝开放平台申请API权限时生成的AppSecret，最大长度64位。\n\ntimestamp：是必填项，当前服务器时间，格式为GMT+8的时间戳，精确到毫秒，最长53位。\n\nsignature：是必填项，签名结果，由系统按照接口规则计算得出，最大长度64位。","role":"system"},{"content":"com.wechat.pay.java.service.payments.nativepay.model.QueryOrderByOutTradeNoRequest需要的参数","role":"user"}]
+24-03-21.11:07:22.933 [http-nio-8091-exec-1] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.11:07:22.943 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：网站
+24-03-21.11:07:22.943 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.11:07:22.943 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：开放
+24-03-21.11:07:22.943 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.11:07:22.943 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：服务器
+24-03-21.11:07:22.943 [http-nio-8091-exec-1] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.11:07:22.952 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.11:07:22.952 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.11:07:22.952 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 978
+24-03-21.11:07:22.952 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.11:07:22.952 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.11:07:22.952 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.11:07:22.952 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@38cded40
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1793ms)
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 03:07:24 GMT
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.11:07:24.743 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.11:07:31.750 [http-nio-8091-exec-2] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.11:07:47.021 [http-nio-8091-exec-3] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"com.wechat.pay.java.service.payments.nativepay.model.QueryOrderByOutTradeNoRequest需要的参数","role":"user"},{"content":"com.wechat.pay.java.service.payments.nativepay.model.QueryOrderByOutTradeNoRequest需要以下参数：\n\nout_trade_no：是必填项，交易单号，商家网站订单号或支付宝交易号，最大长度30位。\n\nappid：是必填项，商户的AppID，可在商户管理后台查看，最大长度64位。\n\nappsecret：是必填项，商户在支付宝开放平台申请API权限时生成的AppSecret，最大长度64位。\n\ntimestamp：是必填项，当前服务器时间，格式为GMT+8的时间戳，精确到毫秒，最长53位。\n\nsignature：是必填项，签名结果，由系统按照接口规则计算得出，最大长度64位。","role":"system"},{"content":"com.wechat.pay.java.service.payments.nativepay.model.QueryOrderByOutTradeNoRequest的作用","role":"user"}]
+24-03-21.11:07:47.021 [http-nio-8091-exec-3] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.11:07:47.031 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：网站
+24-03-21.11:07:47.031 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.11:07:47.031 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：开放
+24-03-21.11:07:47.031 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.11:07:47.031 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：服务器
+24-03-21.11:07:47.031 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：64
+24-03-21.11:07:47.036 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.11:07:47.036 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.11:07:47.036 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 1077
+24-03-21.11:07:47.036 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.11:07:47.036 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.11:07:47.036 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.11:07:47.036 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@20d1c6e5
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1164ms)
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 03:07:48 GMT
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.11:07:48.201 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.11:07:51.201 [http-nio-8091-exec-4] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.11:11:19.007 [http-nio-8091-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"com.wechat.pay.java.service.payments.nativepay.model.QueryOrderByOutTradeNoRequest的作用","role":"user"},{"content":"com.wechat.pay.java.service.payments.nativepay.model.QueryOrderByOutTradeNoRequest用于查询微信交易记录中某个特定商户的交易信息。通过提供商户的交易单号、AppID、AppSecret、timestamp和signature等参数，可以获取对应的支付订单信息。这对于商户管理和处理退款、对账等问题非常有用。","role":"system"},{"content":"com.wechat.pay.java.core.notification.NotificationParser;的作用","role":"user"}]
+24-03-21.11:11:19.007 [http-nio-8091-exec-6] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.11:11:19.018 [http-nio-8091-exec-6] INFO  SensitiveWordConfig    - 检测到敏感词：微信
+24-03-21.11:11:19.018 [http-nio-8091-exec-6] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.11:11:19.018 [http-nio-8091-exec-6] INFO  SensitiveWordConfig    - 检测到敏感词：信息
+24-03-21.11:11:19.018 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.11:11:19.018 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.11:11:19.018 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 739
+24-03-21.11:11:19.018 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.11:11:19.018 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.11:11:19.018 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.11:11:19.018 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@559eb4e7
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (2157ms)
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 03:11:21 GMT
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.11:11:21.177 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.11:11:24.039 [http-nio-8091-exec-7] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.11:12:52.870 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"com.wechat.pay.java.core.notification.NotificationParser;的作用","role":"user"},{"content":"com.wechat.pay.java.core.notification.NotificationParser是微信支付的核心组件之一，用于解析微信支付通知数据包。它负责将接收到的二进制数据转化为可读的Java对象，以便于后续的业务逻辑处理。例如，当接收到支付成功的通知时，它可以被用来更新数据库中的支付状态、执行支付后的业务逻辑等操作。","role":"system"},{"content":"com.wechat.pay.java.service.partnerpayments.nativepay.model.Transaction;的作用","role":"user"}]
+24-03-21.11:12:52.871 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.11:12:52.877 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：微信
+24-03-21.11:12:52.877 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：微信
+24-03-21.11:12:52.877 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：通知
+24-03-21.11:12:52.877 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：转化
+24-03-21.11:12:52.877 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：通知
+24-03-21.11:12:52.877 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：数据库
+24-03-21.11:12:52.884 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.11:12:52.884 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.11:12:52.884 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 768
+24-03-21.11:12:52.884 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.11:12:52.884 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.11:12:52.884 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.11:12:52.884 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@4878bf24
+24-03-21.11:12:55.222 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (2338ms)
+24-03-21.11:12:55.222 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.11:12:55.222 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 03:12:55 GMT
+24-03-21.11:12:55.222 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.11:12:55.223 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: N/A
+24-03-21.11:12:55.223 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.11:12:55.223 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.11:12:55.223 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.11:12:55.223 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.11:12:58.111 [http-nio-8091-exec-10] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.12:54:29.046 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1h2m27s265ms746µs801ns).
+24-03-21.13:43:21.901 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=10m52s401ms771µs300ns).
+24-03-21.14:24:54.657 [http-nio-8091-exec-3] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"com.wechat.pay.java.service.partnerpayments.nativepay.model.Transaction;的作用","role":"user"},{"content":"com.wechat.pay.java.service.partnerpayments.nativepay.model.Transaction 是微信开放平台提供的用于处理 Native 支付交易的工具类。这个类提供了创建、修改和查询 Native 支付交易的功能。通过使用这个类，开发者可以方便地处理 Native 支付相关的业务逻辑，如发起支付、获取支付结果、处理退款等。","role":"system"},{"content":"public EventBus eventBusListener(OrderPaySuccessListener listener){\n        EventBus eventBus = new EventBus();\n        eventBus.register(listener);\n        return eventBus;\n    }代码的含义","role":"user"}]
+24-03-21.14:24:54.670 [http-nio-8091-exec-3] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.14:24:54.687 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：微信
+24-03-21.14:24:54.687 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：开放
+24-03-21.14:24:54.687 [http-nio-8091-exec-3] INFO  SensitiveWordConfig    - 检测到敏感词：开发
+24-03-21.14:24:54.705 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.14:24:54.705 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.14:24:54.705 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 882
+24-03-21.14:24:54.705 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.14:24:54.705 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.14:24:54.707 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.14:24:54.707 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@24febc2f
+24-03-21.14:24:56.219 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1513ms)
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 06:24:56 GMT
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: N/A
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.14:24:56.220 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.14:24:58.479 [http-nio-8091-exec-4] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.17:17:06.560 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=55m12s254ms735µs).
+24-03-21.19:39:20.917 [http-nio-8091-exec-2] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"public EventBus eventBusListener(OrderPaySuccessListener listener){\n        EventBus eventBus = new EventBus();\n        eventBus.register(listener);\n        return eventBus;\n    }代码的含义","role":"user"},{"content":"这段代码是注册一个订单支付成功的监听器到事件总线中。具体来说，它首先创建了一个新的 EventBus 对象，然后使用 register 方法注册了一个名为 listener 的监听器。这样，当订单支付成功时，EventBus 会触发 listener 对象来处理这个事件。","role":"system"},{"content":"order_time + INTERVAL 3 MINUTE什么意思","role":"user"}]
+24-03-21.19:39:20.950 [http-nio-8091-exec-2] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.19:39:21.000 [http-nio-8091-exec-2] INFO  SensitiveWordConfig    - 检测到敏感词：监听器
+24-03-21.19:39:21.000 [http-nio-8091-exec-2] INFO  SensitiveWordConfig    - 检测到敏感词：然后
+24-03-21.19:39:21.000 [http-nio-8091-exec-2] INFO  SensitiveWordConfig    - 检测到敏感词：监听器
+24-03-21.19:39:21.039 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.19:39:21.039 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.19:39:21.039 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 781
+24-03-21.19:39:21.039 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.19:39:21.039 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.19:39:21.049 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.19:39:21.049 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@da364d5
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1728ms)
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 11:39:22 GMT
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - strict-transport-security: max-age=31536000; includeSubDomains
+24-03-21.19:39:22.769 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.19:39:24.194 [http-nio-8091-exec-3] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.20:18:09.414 [http-nio-8091-exec-5] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1711023488</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123]]></Content>
+<MsgId>24495966826003874</MsgId>
+</xml>
+24-03-21.20:18:09.515 [http-nio-8091-exec-5] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1711023489</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 4898 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-21.20:36:52.155 [http-nio-8091-exec-7] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1711024611</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123]]></Content>
+<MsgId>24495982297789904</MsgId>
+</xml>
+24-03-21.20:36:52.211 [http-nio-8091-exec-7] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1711024612</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 2582 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-21.20:39:44.286 [http-nio-8091-exec-10] INFO  AuthController         - 鉴权登录检验开始，验证码：2582
+24-03-21.20:39:44.312 [http-nio-8091-exec-10] INFO  AuthController         - 鉴权登录校验完成，验证码：2582 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiYjM3YTVjMjQtZGU3NS00MTY5LTkwMGItNDA5MzE5NWE1OTAzIiwiaWF0IjoxNzExMDI0Nzg0LCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExNjI5NTg0fQ.WL1OE7R6mYm04Nn3LB4xort61-yrayPEbZT79SO__CE"}
+24-03-21.20:39:57.037 [http-nio-8091-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1711024796</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123]]></Content>
+<MsgId>24495983039721849</MsgId>
+</xml>
+24-03-21.20:39:57.056 [http-nio-8091-exec-1] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1711024797</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 6829 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-21.20:44:17.777 [http-nio-8091-exec-5] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"请问有什么需要帮助的吗？","role":"system"},{"content":"好的","role":"user"}]
+24-03-21.20:44:17.782 [http-nio-8091-exec-5] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.20:44:17.843 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.20:44:17.844 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.20:44:17.844 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 244
+24-03-21.20:44:17.844 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.20:44:17.844 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.20:44:17.844 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.20:44:17.844 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@b0630ac
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1490ms)
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 12:44:19 GMT
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.20:44:19.332 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.20:44:19.752 [http-nio-8091-exec-6] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-21.20:45:25.671 [http-nio-8091-exec-8] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1711025124</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[123]]></Content>
+<MsgId>24495993605301042</MsgId>
+</xml>
+24-03-21.20:45:25.681 [http-nio-8091-exec-8] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1711025125</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 9152 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-21.20:45:34.338 [http-nio-8091-exec-10] INFO  AuthController         - 鉴权登录检验开始，验证码：9152
+24-03-21.20:45:34.340 [http-nio-8091-exec-10] INFO  AuthController         - 鉴权登录校验完成，验证码：9152 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiNDQ0NjE2YjgtMTk0ZS00ZGE0LWI1MDMtMjlhZjIyMmY3YTRmIiwiaWF0IjoxNzExMDI1MTM0LCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExNjI5OTM0fQ.zSOk4BRT1A8Jy0CBpJ9F_l4yZzGl-Yc4oUj26-3Rl1k"}
+24-03-21.22:28:57.197 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=23m16s29ms670µs400ns).
+24-03-21.22:38:54.041 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"好的","role":"user"},{"content":"请告诉我您的问题或需求，我会尽力为您提供帮助。","role":"system"},{"content":"2021年全国大学生电子设计大赛省级二等奖\n第十三届河南省ICPC银奖\n2021年蓝桥杯大赛省级二等奖\n2021年挑战杯校级二等奖\n根据上面内容写一些经历","role":"user"}]
+24-03-21.22:38:54.076 [http-nio-8091-exec-9] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:glm-4v
+24-03-21.22:38:54.138 [http-nio-8091-exec-9] INFO  SensitiveWordConfig    - 检测到敏感词：挑战
+24-03-21.22:38:54.184 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-21.22:38:54.184 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-21.22:38:54.185 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 501
+24-03-21.22:38:54.185 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-21.22:38:54.185 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-21.22:38:54.188 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-21.22:38:54.189 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@28d03ce9
+24-03-21.22:38:55.757 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (1571ms)
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - server: nginx/1.21.6
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Thu, 21 Mar 2024 14:38:55 GMT
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-21.22:38:55.758 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-21.22:39:05.541 [http-nio-8091-exec-10] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v

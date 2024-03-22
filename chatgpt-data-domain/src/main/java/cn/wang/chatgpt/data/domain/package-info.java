@@ -1,0 +1,1 @@
+package cn.wang.chatgpt.data.domain;

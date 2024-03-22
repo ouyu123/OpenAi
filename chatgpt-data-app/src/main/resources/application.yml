@@ -1,0 +1,102 @@
+server:
+  port: 8091
+
+# 应用配置
+app:
+  config:
+    # 版本，方便通过接口版本升级
+    api-version: v1
+    # 跨域，开发阶段可以设置为 * 不限制
+    cross-origin: "*"
+    limit-count: 10
+    white-list: ojbZUv18lbmriaTjcCWBYkOrSbHA
+
+# 线程池配置
+thread:
+  pool:
+    executor:
+      config:
+        core-pool-size: 20
+        max-pool-size: 50
+        keep-alive-time: 5000
+        block-queue-size: 5000
+        policy: CallerRunsPolicy
+
+# ChatGPT SDK Config
+chatgpt:
+  sdk:
+    config:
+      # 官网地址 https://api.openai.com/
+      api-host: https://open.bigmodel.cn/
+      # 官网申请 https://platform.openai.com/account/api-keys
+      api-key: 395f31326c14d475cb273747f76a80a0.wo6jyLZMFSGnkdqP
+      # 自主申请 http://api.xfg.im:8080/authorize?username=xfg&password=123 - 前面课程已经讲述获取方式
+      auth-token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ4ZmciLCJleHAiOjE2OTAwMzI5MDQsImlhdCI6MTY5MDAyOTMwNCwianRpIjoiOTBkNzc5NjYtOWM5MS00MGVmLWJmNjktNzYzNDljNmUyMDkyIiwidXNlcm5hbWUiOiJ4ZmcifQ.x7P6Rc249SgbxpqWhgKahYP8A8AllNI_26DV08a1AZs
+
+# 微信公众号配置信息
+# originalid：原始ID
+# appid：个人AppID
+# token：开通接口服务自定义设置
+wx:
+  config:
+    originalid: gh_be110517359f
+    appid: wx9c025268c749dea3
+    token: b8b6
+spring:
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://127.0.0.1:3306/openai?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      pool-name: Retail_HikariCP
+      minimum-idle: 15 #最小空闲连接数量
+      idle-timeout: 180000 #空闲连接存活最大时间，默认600000（10分钟）
+      maximum-pool-size: 25 #连接池最大连接数，默认是10
+      auto-commit: true #此属性控制从池返回的连接的默认自动提交行为,默认值：true
+      max-lifetime: 1800000 #此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+      connection-timeout: 30000 #数据库连接超时时间,默认30秒，即30000
+      connection-test-query: SELECT 1
+    type: com.zaxxer.hikari.HikariDataSource
+
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+  config-location: classpath:/mybatis/config/mybatis-config.xml
+
+wxpay:
+  config:
+    # 状态；true = 开启、false 关闭
+    enabled: false
+    # 申请支付主体的 appid
+    appid:
+    # 商户号
+    mchid:
+    # 回调地址
+    notify-url: http://你的地址.natapp1.cc/api/v1/mall/pay_notify
+    # 商户API私钥路径
+    private-key-path: cert/apiclient_key.pem
+    # 商户证书序列号：openssl x509 -in apiclient_cert.pem -noout -serial
+    merchant-serial-number:
+    # 商户APIV3密钥
+    api-v3-key:
+
+# application-dev.yml
+# 支付宝支付 - 沙箱 https://opendocs.alipay.com/common/02kkv7
+alipay:
+  enabled: true
+  app_id: 9021000135646970
+  merchant_private_key: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCDV7MwqTqjMA3vysA805idtM84he74c1PxO7Zs9Uf/sdjzuQQNPOR/Drt4/TvO6X7yQRNaaYPyNgNGoH6egQ5ecm01Y5lExUWjFsP26Et0B2nUyycBa6y5OLZB+n1HFFHcsYQiWQ+RXqWLlZeRuYMTqx/s5JC69J3sfUcOSx6aTLCZtaJnElunnVAo6ihTdkcSaYqs3gKz3r+hMwhglpwgZU2J1hqviXhSAjN4GcFSIYp7i9dP5aYkVc3+pKTfcD9WOOTPQ1Xov9ycBWhwmAnzkAZDI/G0zmpFBxfv6dutU9TxWAY8GoBKVfroXYgvomzYkqYmW38F8huj16zgtvT5AgMBAAECggEAapV9vYxnIEx70s8G55WSsNAspSLTBV2Zjha1+H+nuNDbTRUkO5Xhm1YaPpnJsiR7tx2mFeWwhJreV68gcYIrZeuXwg6cL1mjJDDyP+jMalElyeA+PAHj/b8O8EXU6hyMPfr0TmdVodNbpgV0JXaU7x4cX0IwTPb7PRGA2xGMuQs/V/RTBWOQ/2Aj17f1ONOtoxwIzKB53TZKB4HzXjptg6S4GcYNzyD5Sc33uS3IiKRT4ljeRMut0itF1IvELjL1eN4QvW+6HMfDzwXzUiAdB4/pAajRxky+eyeTojH3zT/O/Y5Am4kZRaeSbunw1yCXg95TJxooO/mgGQgcj0LIsQKBgQC5e9wxGL+DXRFVo7iMryeFCoB4i3sIxJ4agV9rRlW21GrLRyDvHHRBDyCEsAMi9oy7e5sLxT/AaZ7p4CVoiN8W9LQGfV9ogOJWf+y8RAgIr++lUS40f1byLKji4ocOtBvx1Ol2mqf2i8INp176X08EjUdt4X5z5WHBBKd9j9HRDQKBgQC1RpBrv2awenwFQ81rLM+xIuReT8OXhc5GAlptifBbNuTdCscxuHiNLMWJBy/d/Hrzz4lbsLk+tXoP4VGJeI9NIOihq9vGfYqaPbmhviHiWl22fTjbfsjRyXHHvLyMt1UCEfdMnzrSaoOx62SS668eAkhLBUZUOvAnPRdtAUDAnQKBgQC3dorCST9MuOZndcwZ4znMvyl5kkT81DWp8+MkoWowsAR90noB6HwYydSZSdugXouu+cDPMKgxMoeLvzhhIFjBRQM4FBQlsq2tb1UClqv3o8X/F8ADDx055vCZkgSSh5XIapcNyEVweKZViQJJ1bG7x94qEktYaT96gpcEfBfFlQKBgQCc2sY0tZWhtxqBY73nswqz98EralGQVxO5uGeOyQDVrJY0PhNGjpyha9AxVaqxprqtJTNxx2VDQbyw6QKotU0qLAOfgRnWkuLPvAFYVzDyr8bPFWORag9Sl8CAWGu+RxSjifA2uMEpOUljNo/8ITuR99+eKp5EXAtZqJ8Qjzj8cQKBgHW9LleXzu4I2DMp2amVlIXW9ar210verIjFK0MlwFiDMMn+DL8YdDjHKy3RXE4EKwp+ZSFPYMQY9r8KTSuOmnlYSftsYnsek7uJzdj00WWVODkRFbz6VP866iwKkXYqivBH+5vLmoCJMPlQR8B+8Gjv4cOECeZ63JKI/FD13O/w
+  alipay_public_key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkiBxW3C0L29DI27G/SaO5gsBqv9YYtim/b7im9ynGsWz0zfPZz2wPTfaSpuaXkLbXcbBvkfb0ED8z4p0QcsFBeuk34IBIOT5R7M625MISqSyfC7e3ONX8s1Ze84M2866Da+LFybp8qjyPWr5Pl1ensmYkX+eUmqqb99b6kyDxvkL4aAuH7PdW+h2eulpv3nt+jtm8D4JqQdw0kbOfEdfW85/wZ9mAaMl0py/Z6b8E90DREl85G7SOZUZCelGJlnprFOPfzgpEc3xtppRusnQfsxKDAqD9AppF9duAqTi+qcHcb/pRt3H3wNrQvYmFTxBE0jZkoEZaFAK9dhB7xi9/QIDAQAB
+  notify_url: http://wang176.natapp1.cc/api/v1/alipay/pay_notify
+  return_url: http://wang176.natapp1.cc
+  gatewayUrl: https://openapi-sandbox.dl.alipaydev.com/gateway.do
+
+# 日志
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
+
+
+
+

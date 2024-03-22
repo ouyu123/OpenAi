@@ -1,0 +1,1 @@
+docker build -f ./Dockerfile -t wang/chatgpt-data-app:1.1 .

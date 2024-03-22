@@ -1,0 +1,1027 @@
+24-03-22.09:10:40.422 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=10h22m13s2ms883µs300ns).
+24-03-22.09:27:34.044 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+24-03-22.09:27:34.066 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+24-03-22.09:27:55.285 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 23072 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.09:27:55.287 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.09:27:57.041 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.09:27:57.052 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.09:27:57.055 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.09:27:57.055 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.09:27:57.133 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.09:27:57.133 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1794 ms
+24-03-22.09:27:58.274 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'saleController': Injection of resource dependencies failed
+24-03-22.09:27:58.278 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-03-22.09:27:58.291 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+24-03-22.09:27:58.314 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.wang.chatgpt.data.domain.order.repository.IOrderRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.wang.chatgpt.data.domain.order.repository.IOrderRepository' in your configuration.
+
+24-03-22.09:40:31.734 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 36716 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.09:40:31.736 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.09:40:32.984 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.09:40:32.994 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.09:40:32.996 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.09:40:32.997 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.09:40:33.054 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.09:40:33.054 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1270 ms
+24-03-22.09:40:33.946 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'saleController': Injection of resource dependencies failed
+24-03-22.09:40:33.949 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-03-22.09:40:33.961 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+24-03-22.09:40:33.979 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.wang.chatgpt.data.domain.order.repository.IOrderRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.wang.chatgpt.data.domain.order.repository.IOrderRepository' in your configuration.
+
+24-03-22.09:41:29.031 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 22344 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.09:41:29.035 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.09:41:30.288 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.09:41:30.298 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.09:41:30.301 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.09:41:30.301 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.09:41:30.361 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.09:41:30.361 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1279 ms
+24-03-22.09:41:31.212 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'saleController': Injection of resource dependencies failed
+24-03-22.09:41:31.215 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-03-22.09:41:31.226 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+24-03-22.09:41:31.243 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.wang.chatgpt.data.infrastructure.dao.IOpenAIOrderDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.wang.chatgpt.data.infrastructure.dao.IOpenAIOrderDao' in your configuration.
+
+24-03-22.09:42:02.348 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 36304 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.09:42:02.350 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.09:42:03.596 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.09:42:03.607 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.09:42:03.609 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.09:42:03.609 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.09:42:03.669 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.09:42:03.669 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1272 ms
+24-03-22.09:42:05.045 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-03-22.09:42:05.066 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path ''
+24-03-22.09:42:05.074 [main            ] INFO  Application            - Started Application in 3.304 seconds (process running for 4.173)
+24-03-22.09:47:10.950 [http-nio-8091-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-22.09:47:10.950 [http-nio-8091-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-22.09:47:10.954 [http-nio-8091-exec-2] INFO  DispatcherServlet      - Completed initialization in 4 ms
+24-03-22.09:47:10.991 [http-nio-8091-exec-2] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'openid' for method parameter type String is not present]
+24-03-22.09:49:41.018 [http-nio-8091-exec-1] INFO  AuthController         - 生成验证码完成，用户ID: wang 生成结果：您的验证码为: 9435 有效时间 3 分钟！
+24-03-22.09:51:36.457 [http-nio-8091-exec-4] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'code' for method parameter type String is not present]
+24-03-22.09:51:47.903 [http-nio-8091-exec-5] INFO  AuthController         - 鉴权登录检验开始，验证码：9435
+24-03-22.09:51:48.043 [http-nio-8091-exec-5] INFO  AuthController         - 鉴权登录校验完成，验证码：9435 结果：{"code":"0000","info":"验证成功","openId":"wang","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJ3YW5nIiwianRpIjoiN2U3NTM3MTktZDRmNy00ZTk4LTk1ZWItMGRkMjhjMTVmOWI1IiwiaWF0IjoxNzExMDcyMzA3LCJzdWIiOiJ3YW5nIiwiZXhwIjoxNzExNjc3MTA3fQ.9VQpFaHU6kWN65Pe3xwVQQ0Z_GFfg1ASAMliZqwjPUU"}
+24-03-22.09:55:31.873 [http-nio-8091-exec-7] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Invalid mime type "charset=utf-8": does not contain '/']
+24-03-22.09:56:04.067 [http-nio-8091-exec-8] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Invalid mime type "charset=utf-8": does not contain '/']
+24-03-22.09:57:18.234 [http-nio-8091-exec-10] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：gpt-3.5-turbo，请求信息：[{"content":"1+1","role":"user"}]
+24-03-22.09:57:18.292 [http-nio-8091-exec-10] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:wang 请求模型:gpt-3.5-turbo
+24-03-22.09:57:18.314 [http-nio-8091-exec-10] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-03-22.09:57:18.531 [http-nio-8091-exec-10] INFO  HikariPool             - Retail_HikariCP - Added connection com.mysql.jdbc.JDBC4Connection@21e9324b
+24-03-22.09:57:18.531 [http-nio-8091-exec-10] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-03-22.09:57:18.577 [http-nio-8091-exec-10] ERROR ChatGPTAIServiceController - 流式应答，请求模型：gpt-3.5-turbo 发生异常
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.openai.service.AbstractChatService.completions(AbstractChatService.java:67)
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.09:57:18.580 [http-nio-8091-exec-10] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: ChatGPTException(code=未知失败, message=null)] with root cause
+cn.wang.chatgpt.data.types.exception.ChatGPTException: null
+	at cn.wang.chatgpt.data.trigger.http.ChatGPTAIServiceController.completionsStream(ChatGPTAIServiceController.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.09:58:10.953 [http-nio-8091-exec-2] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6FjFOKWWTcjTOVfby5lRYWs开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6FjFOKWWTcjTOVfby5lRYWs]]></FromUserName>
+<CreateTime>1711072688</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[ffa]]></Content>
+<MsgId>24496669292363403</MsgId>
+</xml>
+24-03-22.09:58:10.994 [http-nio-8091-exec-2] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6FjFOKWWTcjTOVfby5lRYWs完成 <xml>
+  <ToUserName><![CDATA[o8cXL6FjFOKWWTcjTOVfby5lRYWs]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1711072690</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 5328 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-22.09:59:02.016 [http-nio-8091-exec-3] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：glm-4v，请求信息：[{"content":"1+1","role":"user"}]
+24-03-22.09:59:02.029 [http-nio-8091-exec-3] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:wang 请求模型:glm-4v
+24-03-22.09:59:02.087 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> POST https://open.bigmodel.cn/api/paas/v4/chat/completions
+24-03-22.09:59:02.087 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Type: application/json; charset=utf-8
+24-03-22.09:59:02.087 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Content-Length: 174
+24-03-22.09:59:02.087 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - Accept: text/event-stream
+24-03-22.09:59:02.087 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - --> END POST
+24-03-22.09:59:02.094 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截前的请求数据Request{method=POST, url=https://open.bigmodel.cn/api/paas/v4/chat/completions, headers=[Accept:text/event-stream]}
+24-03-22.09:59:02.096 [OkHttp https://open.bigmodel.cn/...] INFO  OpenAiHTTPInterceptor  - 拦截后的请求数据Accept: text/event-stream
+Authorization: ██
+Content-Type: application/json
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)
+,okhttp3.RequestBody$Companion$toRequestBody$2@59ce9ec1
+24-03-22.09:59:06.681 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- 200 https://open.bigmodel.cn/api/paas/v4/chat/completions (4591ms)
+24-03-22.09:59:06.681 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - date: Fri, 22 Mar 2024 01:59:05 GMT
+24-03-22.09:59:06.681 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - content-type: text/event-stream;charset=UTF-8
+24-03-22.09:59:06.682 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - x-trace-id: 
+24-03-22.09:59:06.682 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Origin
+24-03-22.09:59:06.682 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Method
+24-03-22.09:59:06.682 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - vary: Access-Control-Request-Headers
+24-03-22.09:59:06.682 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - strict-transport-security: max-age=31536000; includeSubDomains
+24-03-22.09:59:06.682 [OkHttp https://open.bigmodel.cn/...] INFO  OkHttpClient           - <-- END HTTP
+24-03-22.09:59:07.004 [http-nio-8091-exec-4] INFO  AbstractChatService    - 流式问答请求完成，使用模型：glm-4v
+24-03-22.10:01:15.663 [http-nio-8091-exec-9] INFO  SaleController         - 商品查询 []
+24-03-22.10:06:21.802 [http-nio-8091-exec-8] INFO  SaleController         - 商品查询 [{"available":false,"price":0.01,"productDesc":"测试商品请勿下单","productId":1001,"productName":"OpenAi 测试商品(3.5)","quota":100},{"available":false,"price":0.02,"productDesc":"测试商品请勿下单","productId":1002,"productName":"OpenAi 测试商品(3.5&4.0)","quota":200},{"available":false,"price":10.00,"productDesc":"测试商品请勿下单","productId":1003,"productName":"OpenAi 测试商品(3.5&4.0)","quota":50}]
+24-03-22.10:08:42.655 [http-nio-8091-exec-10] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:08:42.666 [http-nio-8091-exec-10] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:08:42.666 [http-nio-8091-exec-10] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:61)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:16:33.275 [http-nio-8091-exec-1] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:16:33.290 [http-nio-8091-exec-1] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:16:33.290 [http-nio-8091-exec-1] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:61)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:19:21.382 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+24-03-22.10:19:21.392 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+24-03-22.10:19:27.856 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 37024 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.10:19:27.860 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.10:19:29.302 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.10:19:29.312 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.10:19:29.314 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.10:19:29.315 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.10:19:29.389 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.10:19:29.390 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1472 ms
+24-03-22.10:19:30.861 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-03-22.10:19:30.881 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path ''
+24-03-22.10:19:30.891 [main            ] INFO  Application            - Started Application in 3.633 seconds (process running for 5.229)
+24-03-22.10:19:36.091 [http-nio-8091-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-22.10:19:36.092 [http-nio-8091-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-22.10:19:36.092 [http-nio-8091-exec-2] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-03-22.10:19:36.386 [http-nio-8091-exec-2] INFO  AuthController         - 生成验证码完成，用户ID: wang 生成结果：您的验证码为: 3326 有效时间 3 分钟！
+24-03-22.10:19:45.291 [http-nio-8091-exec-1] INFO  AuthController         - 鉴权登录检验开始，验证码：3326
+24-03-22.10:19:45.446 [http-nio-8091-exec-1] INFO  AuthController         - 鉴权登录校验完成，验证码：3326 结果：{"code":"0000","info":"验证成功","openId":"wang","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJ3YW5nIiwianRpIjoiYzA5YjlkNDAtZDAyYi00MjFmLTlhYjgtNzk1NDUwOGE3OGJmIiwiaWF0IjoxNzExMDczOTg1LCJzdWIiOiJ3YW5nIiwiZXhwIjoxNzExNjc4Nzg1fQ.8zKLdMZHC_FS83ds3YPrZ4UpIo1E4esDfjXFNxy8Qjo"}
+24-03-22.10:19:59.562 [http-nio-8091-exec-3] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:19:59.587 [http-nio-8091-exec-3] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-03-22.10:19:59.786 [http-nio-8091-exec-3] INFO  HikariPool             - Retail_HikariCP - Added connection com.mysql.jdbc.JDBC4Connection@6079329a
+24-03-22.10:19:59.786 [http-nio-8091-exec-3] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-03-22.10:20:14.856 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=45s64ms578µs).
+24-03-22.10:20:45.289 [http-nio-8091-exec-3] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:20:48.890 [http-nio-8091-exec-4] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:20:50.401 [http-nio-8091-exec-4] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:20:50.405 [http-nio-8091-exec-4] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:61)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:20:50.389 [http-nio-8091-exec-3] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:61)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:21:05.656 [http-nio-8091-exec-5] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:21:30.490 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=45s204ms402µs600ns).
+24-03-22.10:21:56.364 [http-nio-8091-exec-5] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:22:09.125 [http-nio-8091-exec-5] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:61)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:22:15.967 [http-nio-8091-exec-6] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:22:53.763 [http-nio-8091-exec-6] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:22:53.766 [http-nio-8091-exec-6] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:61)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:22:53.859 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+24-03-22.10:22:53.867 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+24-03-22.10:22:59.961 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 36872 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.10:22:59.964 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.10:23:01.333 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.10:23:01.343 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.10:23:01.345 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.10:23:01.345 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.10:23:01.413 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.10:23:01.413 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1397 ms
+24-03-22.10:23:04.186 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-03-22.10:23:04.245 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path ''
+24-03-22.10:23:04.262 [main            ] INFO  Application            - Started Application in 4.974 seconds (process running for 6.035)
+24-03-22.10:23:33.315 [http-nio-8091-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-22.10:23:33.315 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-22.10:23:33.316 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-03-22.10:23:33.621 [http-nio-8091-exec-1] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:47)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:23:37.369 [http-nio-8091-exec-2] INFO  AuthController         - 生成验证码完成，用户ID: wang 生成结果：您的验证码为: 5907 有效时间 3 分钟！
+24-03-22.10:23:43.364 [http-nio-8091-exec-5] INFO  AuthController         - 鉴权登录检验开始，验证码：5907
+24-03-22.10:23:43.672 [http-nio-8091-exec-5] INFO  AuthController         - 鉴权登录校验完成，验证码：5907 结果：{"code":"0000","info":"验证成功","openId":"wang","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJ3YW5nIiwianRpIjoiNzg3ODQwZTQtZmJkZC00YWMxLTg2NjUtNzk2ZGZkODk0ZjI4IiwiaWF0IjoxNzExMDc0MjIzLCJzdWIiOiJ3YW5nIiwiZXhwIjoxNzExNjc5MDIzfQ.hxlOAi7cHQolX8uAgQPvtvGYiZThj1ESzvn-p8pk5Qo"}
+24-03-22.10:23:51.803 [http-nio-8091-exec-3] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:23:51.853 [http-nio-8091-exec-3] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-03-22.10:23:52.164 [http-nio-8091-exec-3] INFO  HikariPool             - Retail_HikariCP - Added connection com.mysql.jdbc.JDBC4Connection@28502693
+24-03-22.10:23:52.173 [http-nio-8091-exec-3] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-03-22.10:25:34.814 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m38s875ms475µs100ns).
+24-03-22.10:25:34.858 [http-nio-8091-exec-3] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:25:44.014 [http-nio-8091-exec-7] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:25:44.009 [http-nio-8091-exec-3] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:62)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:25:49.635 [http-nio-8091-exec-7] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:25:49.636 [http-nio-8091-exec-7] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:62)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:25:49.704 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+24-03-22.10:25:49.710 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+24-03-22.10:25:53.410 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 26284 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.10:25:53.412 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.10:25:54.834 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.10:25:54.845 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.10:25:54.848 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.10:25:54.848 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.10:25:54.919 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.10:25:54.919 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1452 ms
+24-03-22.10:25:57.392 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-03-22.10:25:57.456 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path ''
+24-03-22.10:25:57.473 [main            ] INFO  Application            - Started Application in 4.744 seconds (process running for 5.8)
+24-03-22.10:26:04.416 [http-nio-8091-exec-4] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-22.10:26:04.417 [http-nio-8091-exec-4] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-22.10:26:04.417 [http-nio-8091-exec-4] INFO  DispatcherServlet      - Completed initialization in 0 ms
+24-03-22.10:26:05.101 [http-nio-8091-exec-4] INFO  AuthController         - 生成验证码完成，用户ID: wang 生成结果：您的验证码为: 7897 有效时间 3 分钟！
+24-03-22.10:26:11.380 [http-nio-8091-exec-1] INFO  AuthController         - 鉴权登录检验开始，验证码：7897
+24-03-22.10:26:11.731 [http-nio-8091-exec-1] INFO  AuthController         - 鉴权登录校验完成，验证码：7897 结果：{"code":"0000","info":"验证成功","openId":"wang","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJ3YW5nIiwianRpIjoiYWM1NjQ4MDctYjU3OS00NzNlLWJhOTYtZmZmMmZmZjUyNGI3IiwiaWF0IjoxNzExMDc0MzcxLCJzdWIiOiJ3YW5nIiwiZXhwIjoxNzExNjc5MTcxfQ.G8xSc7AzNFgJzGmgsB46vdi1zBylZa6WgCZrXSgnMoE"}
+24-03-22.10:26:19.631 [http-nio-8091-exec-3] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:26:19.687 [http-nio-8091-exec-3] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-03-22.10:26:20.013 [http-nio-8091-exec-3] INFO  HikariPool             - Retail_HikariCP - Added connection com.mysql.jdbc.JDBC4Connection@437b8783
+24-03-22.10:26:20.017 [http-nio-8091-exec-3] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-03-22.10:26:46.860 [http-nio-8091-exec-3] ERROR AbstractOrderService   - 创建订单，已生成微信支付，返回 openid: wang productId: 1001
+24-03-22.10:26:47.973 [http-nio-8091-exec-3] ERROR SaleController         - 用户商品下单，根据商品ID创建支付单失败
+cn.wang.chatgpt.data.types.exception.ChatGPTException: 未知失败
+	at cn.wang.chatgpt.data.domain.order.service.weixin.AbstractOrderService.createOrder(AbstractOrderService.java:62)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.createParOrder(SaleController.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:28:56.590 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+24-03-22.10:28:56.594 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+24-03-22.10:29:00.056 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 27796 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.10:29:00.059 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.10:29:01.448 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.10:29:01.462 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.10:29:01.464 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.10:29:01.465 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.10:29:01.537 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.10:29:01.537 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1429 ms
+24-03-22.10:29:04.284 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-03-22.10:29:04.347 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path ''
+24-03-22.10:29:04.365 [main            ] INFO  Application            - Started Application in 4.985 seconds (process running for 5.997)
+24-03-22.10:29:07.448 [http-nio-8091-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-22.10:29:07.448 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-22.10:29:07.449 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-03-22.10:29:08.196 [http-nio-8091-exec-1] INFO  AuthController         - 生成验证码完成，用户ID: wang 生成结果：您的验证码为: 1596 有效时间 3 分钟！
+24-03-22.10:29:16.302 [http-nio-8091-exec-2] INFO  AuthController         - 鉴权登录检验开始，验证码：1596
+24-03-22.10:29:16.632 [http-nio-8091-exec-2] INFO  AuthController         - 鉴权登录校验完成，验证码：1596 结果：{"code":"0000","info":"验证成功","openId":"wang","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJ3YW5nIiwianRpIjoiZTRiMGYxNzctNTJhYi00NjFlLWEzNGMtMjY5NmYxNWY3ODJkIiwiaWF0IjoxNzExMDc0NTU2LCJzdWIiOiJ3YW5nIiwiZXhwIjoxNzExNjc5MzU2fQ.qWlcFwhqCB4DbF5Pfr08mgCloN6yf3N43XBwNQHbVAw"}
+24-03-22.10:29:23.794 [http-nio-8091-exec-4] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:wang productId:1001
+24-03-22.10:29:23.844 [http-nio-8091-exec-4] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-03-22.10:29:24.164 [http-nio-8091-exec-4] INFO  HikariPool             - Retail_HikariCP - Added connection com.mysql.jdbc.JDBC4Connection@145fb432
+24-03-22.10:29:24.179 [http-nio-8091-exec-4] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-03-22.10:30:11.581 [http-nio-8091-exec-4] INFO  AbstractOrderService   - 创建订单-完成，生成支付单。openid: wang orderId: 225490781070 payUrl: 因你未配置支付渠道，所以暂时不能生成有效的支付URL。请配置支付渠道后，在application-dev.yml中配置支付渠道信息 
+24-03-22.10:30:11.582 [http-nio-8091-exec-4] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单完成 openid: wang productId: 1001 orderPay: PayOrderEntity{openid='wang', orderId='225490781070', payUrl='因你未配置支付渠道，所以暂时不能生成有效的支付URL。请配置支付渠道后，在application-dev.yml中配置支付渠道信息 ', payStatus=0: 等待支付}
+24-03-22.10:30:57.097 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown initiated...
+24-03-22.10:30:57.102 [SpringApplicationShutdownHook] INFO  HikariDataSource       - Retail_HikariCP - Shutdown completed.
+24-03-22.10:31:00.338 [main            ] INFO  Application            - Starting Application using Java 17.0.9 with PID 28996 (D:\xuexi\javawed\Ideacode\chatgpt-data\chatgpt-data-app\target\classes started by 王宁 in D:\xuexi\javawed\Ideacode\chatgpt-data)
+24-03-22.10:31:00.341 [main            ] INFO  Application            - No active profile set, falling back to 1 default profile: "default"
+24-03-22.10:31:01.719 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8091 (http)
+24-03-22.10:31:01.729 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-22.10:31:01.732 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-22.10:31:01.732 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+24-03-22.10:31:01.802 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-22.10:31:01.802 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+24-03-22.10:31:03.247 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-03-22.10:31:03.269 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8091 (http) with context path ''
+24-03-22.10:31:03.277 [main            ] INFO  Application            - Started Application in 3.613 seconds (process running for 4.491)
+24-03-22.10:43:55.792 [http-nio-8091-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-03-22.10:43:55.796 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-03-22.10:43:55.815 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Completed initialization in 19 ms
+24-03-22.10:43:56.054 [http-nio-8091-exec-2] ERROR AbstractAuthService    - jwt isVerify Err
+com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:55)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
+	at cn.wang.chatgpt.data.domain.auth.service.AbstractAuthService.isVerify(AbstractAuthService.java:112)
+	at cn.wang.chatgpt.data.domain.auth.service.AuthService.checkToken(AuthService.java:47)
+	at cn.wang.chatgpt.data.trigger.http.SaleController.queryProductList(SaleController.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:259)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:192)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+24-03-22.10:45:00.625 [http-nio-8091-exec-4] INFO  AuthController         - 鉴权登录检验开始，验证码：2312
+24-03-22.10:45:00.728 [http-nio-8091-exec-4] INFO  AuthController         - 鉴权登录校验完成，验证码：2312 结果：{"code":"0001","info":"验证码不存在"}
+24-03-22.10:45:13.833 [http-nio-8091-exec-3] INFO  AuthController         - 鉴权登录检验开始，验证码：2312
+24-03-22.10:45:13.834 [http-nio-8091-exec-3] INFO  AuthController         - 鉴权登录校验完成，验证码：2312 结果：{"code":"0001","info":"验证码不存在"}
+24-03-22.10:45:46.472 [http-nio-8091-exec-7] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw开始 <xml><ToUserName><![CDATA[gh_be110517359f]]></ToUserName>
+<FromUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></FromUserName>
+<CreateTime>1711075544</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[bjj]]></Content>
+<MsgId>24496715263842701</MsgId>
+</xml>
+24-03-22.10:45:46.753 [http-nio-8091-exec-7] INFO  WeiXinPortalController - 接收微信公众号信息请求o8cXL6LbN8VYAlQ8_PdmdFTLwsNw完成 <xml>
+  <ToUserName><![CDATA[o8cXL6LbN8VYAlQ8_PdmdFTLwsNw]]></ToUserName>
+  <FromUserName><![CDATA[gh_be110517359f]]></FromUserName>
+  <CreateTime>1711075546</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[您的验证码为: 9543 有效时间 3 分钟！]]></Content>
+</xml>
+24-03-22.10:45:56.583 [http-nio-8091-exec-8] INFO  AuthController         - 鉴权登录检验开始，验证码：9541
+24-03-22.10:45:56.583 [http-nio-8091-exec-8] INFO  AuthController         - 鉴权登录校验完成，验证码：9541 结果：{"code":"0001","info":"验证码不存在"}
+24-03-22.10:46:09.667 [http-nio-8091-exec-9] INFO  AuthController         - 鉴权登录检验开始，验证码：9543
+24-03-22.10:46:09.735 [http-nio-8091-exec-9] INFO  AuthController         - 鉴权登录校验完成，验证码：9543 结果：{"code":"0000","info":"验证成功","openId":"o8cXL6LbN8VYAlQ8_PdmdFTLwsNw","token":"eyJhbGciOiJIUzI1NiJ9.eyJvcGVuSWQiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwianRpIjoiMGNmNmU1Y2MtYjcwZS00OWRjLTg0OWUtN2U3OGRmOTIyZmI2IiwiaWF0IjoxNzExMDc1NTY5LCJzdWIiOiJvOGNYTDZMYk44VllBbFE4X1BkbWRGVEx3c053IiwiZXhwIjoxNzExNjgwMzY5fQ.Yc5t6KUd0N7ozcbCca64l4IOXEg6a-zOSpQUBbgR2Eg"}
+24-03-22.10:46:10.360 [http-nio-8091-exec-10] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-03-22.10:46:10.538 [http-nio-8091-exec-10] INFO  HikariPool             - Retail_HikariCP - Added connection com.mysql.jdbc.JDBC4Connection@7da39f2d
+24-03-22.10:46:10.539 [http-nio-8091-exec-10] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-03-22.10:46:10.570 [http-nio-8091-exec-10] INFO  SaleController         - 商品查询 [{"available":false,"price":0.01,"productDesc":"测试商品请勿下单","productId":1001,"productName":"OpenAi 测试商品(3.5)","quota":100},{"available":false,"price":0.02,"productDesc":"测试商品请勿下单","productId":1002,"productName":"OpenAi 测试商品(3.5&4.0)","quota":200},{"available":false,"price":10.00,"productDesc":"测试商品请勿下单","productId":1003,"productName":"OpenAi 测试商品(3.5&4.0)","quota":50}]
+24-03-22.10:46:32.227 [http-nio-8091-exec-1] INFO  SaleController         - 商品查询 [{"available":false,"price":0.01,"productDesc":"测试商品请勿下单","productId":1001,"productName":"OpenAi 测试商品(3.5)","quota":100},{"available":false,"price":0.02,"productDesc":"测试商品请勿下单","productId":1002,"productName":"OpenAi 测试商品(3.5&4.0)","quota":200},{"available":false,"price":10.00,"productDesc":"测试商品请勿下单","productId":1003,"productName":"OpenAi 测试商品(3.5&4.0)","quota":50}]
+24-03-22.10:46:33.446 [http-nio-8091-exec-5] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw productId:1001
+24-03-22.10:46:33.462 [http-nio-8091-exec-5] INFO  AbstractOrderService   - 创建订单-完成，生成支付单。openid: o8cXL6LbN8VYAlQ8_PdmdFTLwsNw orderId: 600087211574 payUrl: 因你未配置支付渠道，所以暂时不能生成有效的支付URL。请配置支付渠道后，在application-dev.yml中配置支付渠道信息 
+24-03-22.10:46:33.468 [http-nio-8091-exec-5] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单完成 openid: o8cXL6LbN8VYAlQ8_PdmdFTLwsNw productId: 1001 orderPay: PayOrderEntity{openid='o8cXL6LbN8VYAlQ8_PdmdFTLwsNw', orderId='600087211574', payUrl='因你未配置支付渠道，所以暂时不能生成有效的支付URL。请配置支付渠道后，在application-dev.yml中配置支付渠道信息 ', payStatus=0: 等待支付}
+24-03-22.10:46:54.846 [http-nio-8091-exec-4] INFO  SaleController         - 商品查询 [{"available":false,"price":0.01,"productDesc":"测试商品请勿下单","productId":1001,"productName":"OpenAi 测试商品(3.5)","quota":100},{"available":false,"price":0.02,"productDesc":"测试商品请勿下单","productId":1002,"productName":"OpenAi 测试商品(3.5&4.0)","quota":200},{"available":false,"price":10.00,"productDesc":"测试商品请勿下单","productId":1003,"productName":"OpenAi 测试商品(3.5&4.0)","quota":50}]
+24-03-22.10:50:48.883 [http-nio-8091-exec-7] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单开始 openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw productId:1002
+24-03-22.10:50:48.890 [http-nio-8091-exec-7] INFO  AbstractOrderService   - 创建订单-完成，生成支付单。openid: o8cXL6LbN8VYAlQ8_PdmdFTLwsNw orderId: 771848381550 payUrl: 因你未配置支付渠道，所以暂时不能生成有效的支付URL。请配置支付渠道后，在application-dev.yml中配置支付渠道信息 
+24-03-22.10:50:48.890 [http-nio-8091-exec-7] INFO  SaleController         - 用户商品下单，根据商品ID创建支付单完成 openid: o8cXL6LbN8VYAlQ8_PdmdFTLwsNw productId: 1002 orderPay: PayOrderEntity{openid='o8cXL6LbN8VYAlQ8_PdmdFTLwsNw', orderId='771848381550', payUrl='因你未配置支付渠道，所以暂时不能生成有效的支付URL。请配置支付渠道后，在application-dev.yml中配置支付渠道信息 ', payStatus=0: 等待支付}
+24-03-22.10:54:56.170 [http-nio-8091-exec-8] INFO  SaleController         - 商品查询 [{"available":false,"price":0.01,"productDesc":"测试商品请勿下单","productId":1001,"productName":"OpenAi 测试商品(3.5)","quota":100},{"available":false,"price":0.02,"productDesc":"测试商品请勿下单","productId":1002,"productName":"OpenAi 测试商品(3.5&4.0)","quota":200},{"available":false,"price":10.00,"productDesc":"测试商品请勿下单","productId":1003,"productName":"OpenAi 测试商品(3.5&4.0)","quota":50}]
+24-03-22.10:56:15.230 [http-nio-8091-exec-10] INFO  SaleController         - 商品查询 [{"available":false,"price":0.01,"productDesc":"测试商品请勿下单","productId":1001,"productName":"OpenAi 测试商品(3.5)","quota":100},{"available":false,"price":0.02,"productDesc":"测试商品请勿下单","productId":1002,"productName":"OpenAi 测试商品(3.5&4.0)","quota":200},{"available":false,"price":10.00,"productDesc":"测试商品请勿下单","productId":1003,"productName":"OpenAi 测试商品(3.5&4.0)","quota":50},{"available":false,"price":18.88,"productDesc":"测试商品请勿下单","productId":1004,"productName":"OpenAi 测试商品(3.5&4.0V)","quota":100}]
+24-03-22.10:56:29.980 [http-nio-8091-exec-2] INFO  ChatGPTAIServiceController - 流式问答请求开始，使用的模型：cogview-3，请求信息：[{"content":"order_time + INTERVAL 3 MINUTE什么意思","role":"user"},{"content":"order_time + INTERVAL 3 MINUTE表示在订单时间的基础上，加上3分钟的间隔时间。这可能意味着在订单发出后的3分钟内，某个特定的事件或操作将会发生。","role":"system"},{"content":"123","role":"user"}]
+24-03-22.10:56:29.981 [http-nio-8091-exec-2] INFO  ChatGPTAIServiceController - 流式问答请求处理，openid:o8cXL6LbN8VYAlQ8_PdmdFTLwsNw 请求模型:cogview-3
