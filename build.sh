@@ -1,0 +1,1 @@
+docker build -f ./Dockerfile -t wang/chatgpt-web:1.0 .
