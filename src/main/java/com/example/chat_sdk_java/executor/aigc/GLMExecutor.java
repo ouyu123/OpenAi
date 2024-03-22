@@ -1,5 +1,6 @@
 package com.example.chat_sdk_java.executor.aigc;
 
+import com.example.chat_sdk_java.domain.chat.req.ChatRoleCompletionRequest;
 import  com.example.chat_sdk_java.domain.chat.res.Choice;
 
 import com.alibaba.fastjson.JSON;
@@ -23,7 +24,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @Slf4j
-public class GLMExecutor implements Executor, ResultHandler {
+public class GLMExecutor implements Executor,ResultHandler {
 
     /**
      * OpenAi 接口
@@ -54,9 +55,8 @@ public class GLMExecutor implements Executor, ResultHandler {
                 .url(configuration.getApiHost().concat(IOpenAiApi.v4))
                 .post(RequestBody.create(MediaType.parse(Configuration.JSON_CONTENT_TYPE), chatCompletionRequest.toString()))
                 .build();
-
         // 返回事件结果
-        return factory.newEventSource(request, chatCompletionRequest.getIsCompatible() ? eventSourceListener(eventSourceListener) : eventSourceListener);
+        return factory.newEventSource(request,this.eventSourceListener(eventSourceListener) );
     }
 
     @Override
@@ -147,6 +147,19 @@ public class GLMExecutor implements Executor, ResultHandler {
     public ImageCompletionResponse genImages(ImageCompletionRequest imageCompletionRequest) throws Exception {
         return openAiApi.genImages(imageCompletionRequest).blockingGet();
     }
+    //对话模型
+    public EventSource completions(ChatRoleCompletionRequest chatRoleCompletionRequest, EventSourceListener eventSourceListener) throws Exception {
+        // 构建请求信息
+        Request request = new Request.Builder()
+                .url(configuration.getApiHost().concat(IOpenAiApi.charglm_3))
+                .header("Content-Type", Configuration.JSON_CONTENT_TYPE)
+                .header("accept","text/event-stream")
+                .post(RequestBody.create(MediaType.parse(Configuration.JSON_CONTENT_TYPE), JSON.toJSONString(chatRoleCompletionRequest)))
+                .build();
+
+        // 返回事件结果
+        return factory.newEventSource(request,eventSourceListener);
+    }
 
     @Override
     public EventSourceListener eventSourceListener(EventSourceListener eventSourceListener) {
@@ -170,10 +183,9 @@ public class GLMExecutor implements Executor, ResultHandler {
             }
 
             @Override
-            public void onFailure(EventSource eventSource, @Nullable Throwable t, @Nullable Response response) {
+            public void onFailure(EventSource eventSource, @org.jetbrains.annotations.Nullable Throwable t, @org.jetbrains.annotations.Nullable Response response) {
                 eventSourceListener.onFailure(eventSource, t, response);
             }
         };
     }
-
 }

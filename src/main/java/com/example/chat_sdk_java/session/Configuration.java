@@ -91,6 +91,7 @@ public class Configuration {
         this.executorGroup.put(Model.GLM_4, glmExecutor);
         this.executorGroup.put(Model.GLM_4V, glmExecutor);
         this.executorGroup.put(Model.COGVIEW_3, glmExecutor);
+        this.executorGroup.put(Model.CHARACTER_3,glmExecutor);
         return this.executorGroup;
     }
 

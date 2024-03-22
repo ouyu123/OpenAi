@@ -122,7 +122,7 @@
 
     <build>
 
-            <finalName>chatglm-sdk-java</finalName>
+            <finalName>chat-sdk-java</finalName>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

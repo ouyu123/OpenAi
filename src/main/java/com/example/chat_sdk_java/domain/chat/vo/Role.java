@@ -9,16 +9,16 @@ public enum Role {
     /**
      * user 用户输入的内容，role位user
      */
-    user("user"),
+    USER("user"),
     /**
      * 模型生成的内容，role位assistant
      */
-    assistant("assistant"),
+    ASSISTANT("assistant"),
 
     /**
      * 系统
      */
-    system("system"),
+    SYSTEM("system"),
 
     ;
     private final String code;

@@ -2,6 +2,7 @@ package com.example.chat_sdk_java.session.defaults;
 
 import com.example.chat_sdk_java.domain.chat.SynRes.ChatCompletionSyncResponse;
 import com.example.chat_sdk_java.domain.chat.req.ChatCompletionRequest;
+import com.example.chat_sdk_java.domain.chat.req.ChatRoleCompletionRequest;
 import com.example.chat_sdk_java.domain.chat.req.ImageCompletionRequest;
 import com.example.chat_sdk_java.domain.chat.res.ImageCompletionResponse;
 import com.example.chat_sdk_java.domain.chat.vo.Model;
@@ -12,7 +13,6 @@ import lombok.extern.slf4j.Slf4j;
 import okhttp3.sse.EventSource;
 import okhttp3.sse.EventSourceListener;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
@@ -57,6 +57,13 @@ public class DefaultOpenAiSession implements OpenAiSession {
         Executor executor = executorGroup.get(imageCompletionRequest.getModelEnum());
         if (null == executor) throw new RuntimeException(imageCompletionRequest.getModel() + " 模型执行器尚未实现！");
         return executor.genImages(imageCompletionRequest);
+    }
+
+    @Override
+    public EventSource completions(ChatRoleCompletionRequest chatRoleCompletionRequest, EventSourceListener eventSourceListener) throws Exception {
+        Executor executor = executorGroup.get(Model.CHARACTER_3);
+        if (null == executor) throw new RuntimeException(Model.CHARACTER_3 + " 模型执行器尚未实现！");
+        return executor.completions(chatRoleCompletionRequest,eventSourceListener);
     }
 
     @Override

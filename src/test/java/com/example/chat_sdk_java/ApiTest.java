@@ -31,6 +31,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
 import java.util.Locale;
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
 
 
@@ -56,7 +57,7 @@ public class ApiTest {
         CountDownLatch countDownLatch = new CountDownLatch(1);
         // 入参；模型、请求信息
         ChatCompletionRequest request = new ChatCompletionRequest();
-        request.setModel(Model.GLM_3_5_TURBO); // chatGLM_6b_SSE、chatglm_lite、chatglm_lite_32k、chatglm_std、chatglm_pro
+        request.setModel(Model.GLM_4); // chatGLM_6b_SSE、chatglm_lite、chatglm_lite_32k、chatglm_std、chatglm_pro
         request.setTools(new ArrayList<Tool>() {
             private static final long serialVersionUID = -7988151926241837899L;
             {
@@ -70,21 +71,22 @@ public class ApiTest {
             private static final long serialVersionUID = -7988151926241837899L;
             {
                 add(Message.builder()
-                        .role(Role.user.getCode())
+                        .role(Role.USER.getCode())
                         .content("1+1等于几")
                         .build());
             }
         });
+        System.out.println(request);
         // 请求
         openAiSession.completions(request, new EventSourceListener() {
             @Override
             public void onEvent(EventSource eventSource, @Nullable String id, @Nullable String type, String data) {
                 ChatCompletionResponse response = JSON.parseObject(data, ChatCompletionResponse.class);
                 log.info("测试结果 onEvent：{}", response.getChoices());
+                log.info("消息类型{}",type);
                 // type 消息类型，add 增量，finish 结束，error 错误，interrupted 中断
                 if (EventType.finish.getCode().equals(type)) {
-                    Usage usage = JSON.parseObject(String.valueOf(response.getUsage()), Usage.class);
-                    log.info("[输出结束] Tokens {}", JSON.toJSONString(usage));
+                    log.info("[输出结束] Tokens {}", JSON.toJSONString(response.getUsage()));
                 }
             }
             @Override
@@ -111,4 +113,34 @@ public class ApiTest {
         openAiSession.genImages(imageCompletionRequest);
         countDownLatch.await();
     }
+
+    @Test
+    public void test_completions02() throws Exception {
+        CountDownLatch countDownLatch = new CountDownLatch(1);
+        // 入参；模型、请求信息
+        ChatCompletionRequest request = new ChatCompletionRequest();
+        request.setModel(Model.GLM_4); // chatGLM_6b_SSE、chatglm_lite、chatglm_lite_32k、chatglm_std、chatglm_pro
+//        request.setTools(new ArrayList<Tool>() {
+//            private static final long serialVersionUID = -7988151926241837899L;
+//            {
+//                add(Tool.builder()
+//                        .type(ToolType.web_search)
+//                        .webSearch(WebSearch.builder().enable(true).searchQuery("java").build())
+//                        .build());
+//            }
+//        });
+        request.setMessages(new ArrayList<Message>() {
+            private static final long serialVersionUID = -7988151926241837899L;
+            {
+                add(Message.builder()
+                        .role(Role.USER.getCode())
+                        .content("1+1=几")
+                        .build());
+            }
+        });
+        // 请求
+        CompletableFuture<String> resulte= openAiSession.completions(request);
+        System.out.println(resulte.get());
+    }
+
 }

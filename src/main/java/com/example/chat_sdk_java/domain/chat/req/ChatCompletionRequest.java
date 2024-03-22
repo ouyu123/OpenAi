@@ -32,6 +32,7 @@ public class ChatCompletionRequest implements Serializable {
     private Model model= Model.GLM_3_5_TURBO;
 
     private List<Message> messages;
+
     @JsonProperty("request_id")
     private String requestId= String.format("wn-%d", System.currentTimeMillis());;
     @JsonProperty("do_sample")

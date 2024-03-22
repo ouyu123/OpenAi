@@ -4,6 +4,7 @@ package com.example.chat_sdk_java.executor;
 
 import com.example.chat_sdk_java.domain.chat.SynRes.ChatCompletionSyncResponse;
 import com.example.chat_sdk_java.domain.chat.req.ChatCompletionRequest;
+import com.example.chat_sdk_java.domain.chat.req.ChatRoleCompletionRequest;
 import com.example.chat_sdk_java.domain.chat.req.ImageCompletionRequest;
 import com.example.chat_sdk_java.domain.chat.res.ImageCompletionResponse;
 import okhttp3.sse.EventSource;
@@ -49,4 +50,13 @@ public interface Executor {
      */
     ImageCompletionResponse genImages(ImageCompletionRequest request) throws Exception;
 
+    /**
+     * 对话模式，流式反馈
+     *
+     * @param chatRoleCompletionRequest 请求信息
+     * @param eventSourceListener      实现监听；通过监听的 onEvent 方法接收数据
+     * @return 应答结果
+     * @throws Exception 异常
+     */
+    EventSource completions(ChatRoleCompletionRequest chatRoleCompletionRequest, EventSourceListener eventSourceListener) throws Exception;
 }
